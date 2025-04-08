@@ -1,0 +1,7 @@
+local app=DoApp.DoApp()
+app:doCommand([[Window.SwitchMode?WindowMode=kWriteMode]])
+app:doCommand([[UI.InvokePaletteButton?PaletteIndicatorID=kPlayingTechniquePanel.pta.user.white_barline&PaletteSectionID=kPlayingTechniquesCommonPanel&PropertyButton=false&SetOldValue=false&Set=true&UseLocalOverride=0]])
+app:doCommand([[Window.SwitchMode?WindowMode=kEngraveMode]])
+app:doCommand([[UI.InvokePropertyChangeValue?Type=kPlayingTechniqueStartDX&Value=string: "-35/16"]])
+app:doCommand([[UI.InvokePropertyChangeValue?Type=kPlayingTechniqueStartDY&Value=string: "-137/32"]])
+app:doCommand([[File.AutoSave]])

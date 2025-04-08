@@ -1,0 +1,5 @@
+local app=DoApp.DoApp()
+app:doCommand([[Window.SwitchMode?WindowMode=kEngraveMode]])
+app:doCommand([[UI.InvokePropertyChangeValue?Type=kPlayingTechniqueStartDX&Value=string: "-83/32"]])
+app:doCommand([[UI.InvokePropertyChangeValue?Type=kPlayingTechniqueStartDY&Value=string: "-273/64"]])
+app:doCommand([[File.AutoSave]])
