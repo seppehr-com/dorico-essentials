@@ -1,0 +1,5 @@
+local app=DoApp.DoApp()
+app:doCommand([[UI.InvokePropertyChangeValue?Type=kTempoAbbreviatedText&Value=string: ""]])
+app:doCommand([[UI.InvokePropertyChangeValue?Type=kTempoAbbreviatedText&Value=string: "bpm"]])
+app:doCommand([[UI.InvokePropertyChangeValue?Type=kTempoImmediateShowTextFlag&Value=string: "true"]])
+app:doCommand([[UI.InvokePropertyChangeValue?Type=kTempoImmediateMetronomeMarkOrder&Value=string: "kBefore"]])
